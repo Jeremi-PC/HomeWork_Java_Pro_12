@@ -1,4 +1,4 @@
-package org.example;
+package org.example.randomTests;
 
 import java.util.Random;
 public class Main {

@@ -1,4 +1,5 @@
 package org.example;
+import org.example.randomTests.Main;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import java.util.Random;
