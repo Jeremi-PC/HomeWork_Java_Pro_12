@@ -1,4 +1,4 @@
-package org.example.incorrect_examples;
+package org.example.incorrectExamples;
 
 
 import com.github.javafaker.Faker;
