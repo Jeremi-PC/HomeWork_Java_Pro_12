@@ -12,11 +12,10 @@ class RandomNumberGenTest {
     @Test
     public void testNegativeRandomNums() {
         Random rnd = mock(Random.class);
-        when(rnd.nextInt(anyInt()))
-                .thenReturn(-50)
-                .thenReturn(60);
+        when(rnd.nextInt(anyInt(),anyInt()))
+                .thenReturn(-50);
 
-        int expected = -50;
+        int expected = -49;
         int actual = Main.negativeRandomNums(rnd);
         System.out.println(actual);
         assertEquals(expected, actual);
